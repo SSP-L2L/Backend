@@ -7,16 +7,16 @@
 
 
 ## Video
-[Demo video](https://www.dropbox.com/s/kvhavse90hicdi9/cases_demo.mp4?dl=0)
+[Demo video](https://www.dropbox.com/s/ttst63kl07n4er7/SSP.mpg?dl=0)
 
 ## Run configuration
 [Run Configuration](Run_Configuration.md)
 
 ## Dependencies
--   [`The Simulator of vessel and wagon`](https://github.com/sonnyhcl/Frontend/tree/lambda)
+-   [`The Simulator of vessel and wagon`](https://github.com/SSP-L2L/Frontend/tree/lambda)
 
-    > Attention: In order to perform as [demo](#demo) shows, The `Activiti Backend` project must be coordinated with the `Vessel Frontend` project.
--   [`Coordinator`](https://github.com/sonnyhcl/coordinator)
+    > Attention: In order to perform as [Video](#Video) shows, The `Activiti Backend` project must be coordinated with the `Vessel Frontend` project.
+-   [`Coordinator`](https://github.com/SSP-L2L/coordinator)
     
     This repo simulates aws lambda locally.
     
