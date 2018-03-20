@@ -6,7 +6,7 @@ import java.util.Date;
 
 public class DateUtil {
     /**
-     * return hours
+     * return ms
      *
      * @param left
      * @param right
@@ -18,7 +18,7 @@ public class DateUtil {
         try {
             Date d1 = sdf.parse(left);
             Date d2 = sdf.parse(right);
-            return (d1.getTime() - d2.getTime()) * 1.0 / (1000 * 60 * 60);
+            return (d1.getTime() - d2.getTime()) * 1.0;
         } catch (ParseException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
